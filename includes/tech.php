@@ -1,4 +1,4 @@
-<section class="df-sectionH">
+<section class="df-section">
 	<h3 class="df-techblock__cap df-techblock__cap_view">Забронировать место!</h3>
 	<div class="df-techblock df-techblock_view">		
 		<span class="df-techblock__txt1 df-techblock__txt1_view">На нашем супер курсе Разработчик <br>компьютерных игр! И да улыбнется вам Бог Кода!</span>

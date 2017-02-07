@@ -2,6 +2,7 @@
 <?php require_once('includes/tech.php'); ?>
 <?php require_once('includes/welcome.php'); ?>
 	
+<?php require_once('includes/contacts.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 
 	
