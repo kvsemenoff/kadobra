@@ -1,3 +1,22 @@
+.footer__in { padding: 40px 0; }
+.footer__in .logo { float: left; display: block; width: 231px; height: 63px; background: url(../img/footer_logo.jpg) top left no-repeat; }
+.footer__in .txt { display: block; color: #295ba9; font-size: 24px; }
+.footer__in .info { max-width: 340px; padding: 10px 0 0 20px; float: left; }
+.footer__in .info .pink a { color: #ed1a90; }
+.footer__in .right { float: right; }
+.footer__in .right .phone, .footer__in .right .btn { float: left; }
+.footer__in .right .phone { padding: 6px 23px 0; }
+.footer__bottom { height: 39px; width: 100%; background: #fdb514 url(../img/footer_bg.jpg) top right no-repeat; }
+.footer .button-1 { font-size: 24px; padding: 13px 14px; border-radius: 0; }
 
-
-/*# sourceMappingURL=style8.css.map */
+@media only screen and (max-width: 1000px) { .footer .right { padding: 6px 0 0; }
+  .footer .right .phone { float: none; padding-bottom: 15px; }
+  .footer .right .btn { float: none; } }
+@media only screen and (max-width: 760px) { .footer .right { padding: 0 20px; float: none; }
+  .footer .right .phone { float: left; padding: 20px 15px 15px; }
+  .footer .right .btn { padding: 20px 15px 15px; float: right; } }
+@media only screen and (max-width: 580px) { .footer .logo { margin: 0 auto; float: none; }
+  .footer .info { float: none; width: 100%; padding: 10px; margin: 0 auto; }
+  .footer .right .phone { width: 100%; padding: 20px 10px 15px; text-align: center; }
+  .footer .right .btn { width: 100%; text-align: center; }
+  .footer .right .btn a { display: inline-block; } }
