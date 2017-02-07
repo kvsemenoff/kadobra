@@ -1,5 +1,80 @@
+.clear{
+	clear: both;
+}
 
+/*========tech===========*/
+.df-sectionH{
+	min-height: 500px;
+}
+.df-techblock__cap_view{
+	font-size: 38px;
+	color:#000000;
+	line-height: 56px;
+	max-width: 310px;
+	width: 100%;
+	border-radius: 5px;		
+	background-color: #fdb514;
+	font-family: "PFDinTextCompPro-Regular";
+	text-align: center;
+	margin-bottom: 6px;
+}
+.df-techblock_view{
+	max-width: 305px;
+	width: 100%;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 11px 7px;
+	background-color: #fdb514;
+	text-align: center;
+	font-family: "PFDinTextCompPro-Regular";
+	position: relative;
+}
+.df-techblock__txt1_view{
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	margin-bottom: 5px;
+}
+.df-techblock__txt2_view{
+	font-size: 18px;
+	color: #ed1a90;
+	display: block;
+	margin-bottom: 9px;
+}
+.df-triangle{
+	position: absolute;
+    bottom: -95px;
+    left: 34px;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 95px solid #fdb514;
+}
+.df-txt-triangle{
+	font-size: 12px;
+	color:#ffe6af;
+	font-family: "PFDinTextCompPro-Regular";
+	position: absolute;
+	bottom: -50px;
+    left: 90px;
+}
+//========form
 
+.df-tech__form_view{
+	width: 100%;
+	padding: 0 20px;
+	.input-wrap{
+		margin-bottom: 16px;
+	}
+}
+
+.df-button-1{
+	display: inline-block;
+	position: absolute;
+	bottom: -155px;
+	left:45px;
+}
 @media only screen and (min-width : 320px) {
 }
 
