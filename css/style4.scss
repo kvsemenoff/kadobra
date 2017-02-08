@@ -1,6 +1,19 @@
 
-
-
+.text-center{
+	text-align:center;
+	margin: 0 auto;
+}
+.mleft-40{
+	margin-left: 40px;
+}
+/* Наши программы
+============================*/
+.dd-sircle-img{
+	display: inline-block;
+}
+.dd-box-sircle{
+	text-align:center;
+}
 
 
 
@@ -12,6 +25,9 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-box-sircle{
+		float: left;
+	}
 }
 
 @media only screen and (min-width : 768px) {
