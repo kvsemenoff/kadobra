@@ -29,6 +29,7 @@
 	}
 }
 .dd-section-form{
+	display:none;
 	width: 308px;
 	margin: 0 auto;
 	height: 547px;
@@ -87,6 +88,7 @@
 		float: left;
 	}
 	.dd-section-form{
+		display: block;
 		float: right;
 		margin-right: 78px;
 		margin-top: 126px;
