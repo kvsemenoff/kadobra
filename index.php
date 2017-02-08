@@ -1,7 +1,6 @@
 ﻿<?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header_top.php'); ?>
 <?php require_once('includes/our_prog.php'); ?>
-<?php require_once('includes/tech.php'); ?>
 <?php require_once('includes/welcome.php'); ?>
 <?php require('includes/school.php'); ?>
 <?php require_once('includes/photo.php'); ?>

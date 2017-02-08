@@ -1,5 +1,9 @@
 <section class="df-welcome">		
-			<h3 class="df-wel-cap">Приходите к нам <br> на <strong>пробное занятие</strong>, <br> если </h3>
+			<div class="df-cap"><h3 class="df-wel-cap">Приходите к нам <br> на <strong>пробное занятие</strong>, <br> если </h3>
+				<div class="df-imgabsolute3"><img src="img/df-bgimg3.png" alt="" class="img-responsive"></div>
+			</div>
+				<div class="df-imgabsolute2"><img src="img/df-bgimg2.png" alt="" class="img-responsive"></div>
+				<div class="df-imgabsolute1"><img src="img/df-bgimg.png" alt="" class="img-responsive"></div>	
 			<div class="df-welcomeBlock">
 				
 				<div class="df-welcome__box  df-welcome__box_view df1">
