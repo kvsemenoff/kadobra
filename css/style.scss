@@ -55,12 +55,14 @@ h2{
 	border-radius: 2px;
 	border: none;
 	outline: none;
+	display: block;
 	width: auto;
 }
 .button-2{
+	display: inline-block;
 	background: #ed1a90;
 	text-transform: uppercase;
-	padding: 17px 18px;
+	padding: 14px 18px;
 	font-family: "PFDinTextCompPro-bold", arial, sans-serif;
 	font-size: 31px;
 	color: #fff;
@@ -102,7 +104,13 @@ input{
 		right: 0;
 	}
 }
-
+@media only screen and (max-width : 760px) {
+	.button-1,
+	.button-2{
+		font-size: 20px;
+		padding: 8px 10px;
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
