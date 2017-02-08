@@ -3,9 +3,9 @@
 }
 
 /*========tech===========*/
-.df-sectionH{
-	min-height: 500px;
-}
+// .df-sectionH{
+// 	min-height: 500px;
+// }
 .df-techblock__cap_view{
 	font-size: 38px;
 	color:#000000;
@@ -75,6 +75,74 @@
 	bottom: -155px;
 	left:45px;
 }
+
+
+/*=============welcome ============*/
+.df-welcome{
+	padding-bottom: 35px;
+}
+.df-welcomeBlock{
+	max-width: 1055px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+}
+.df-wel-cap{
+	max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "PFDinTextCompPro-Medium";
+    font-size: 51px;
+    line-height: 51px;
+    color: #ed1a90;
+    text-transform: uppercase;   
+    padding-left: 7%;    
+    margin-bottom: 24px;
+	strong{
+		color: #fdb514;
+	}
+}
+.df-welcome__box_view{
+	max-width: 280px;
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
+	font-family: "PFDinTextCompPro-Regular";
+	vertical-align: top;	
+	margin-bottom:35px;	
+}
+
+.df-welcome__box__img_view{
+	padding-left: 40px;
+	margin-bottom: 12px;
+}
+.df-welcome__box__txt1_view{
+	display: block;
+	font-size: 24px;
+	color: #295ba9;	
+}
+.df-welcome__box__txt2_view{
+	display: block;
+	font-size: 24px;
+	color: #fdb514;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -85,8 +153,56 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.df-welcomeBlock{		
+		padding-left: 80px;
+	}
+	.df-wel-cap{
+		max-width: 650px;
+	    width: 100%;	   
+	    padding-left: 245px;	    
+	    margin-bottom: 74px;		
+	}
+	.df-welcome__box_view{			
+		margin-right: 50px;
+	}
+	.dfmargin0{
+		margin: 0;
+	}
+	.df1{
+		margin-right: 72px;
+	}
+	.df2{
+		margin-right: 0px;
+	}
+	.df3{
+		.df-welcome__box__img_view{
+			padding-left: 19px;
+			margin-bottom: 8px;
+		}	
+	}
+	.df4{
+		margin-top: -12px;
+		margin-right: 73px;
+	}
+	.df5{
+		margin-right: 0;
+		.df-welcome__box__img_view{
+			padding-left: 15px;		
+		}	
+	}
+	.df6{
+		.df-welcome__box__img_view{
+			margin-bottom: 7px;
+		}
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-welcome{	
+		background-image: url("../img/df-bgimg.png");
+		background-repeat: no-repeat;
+		background-position: top 5px center;
+		padding-bottom: 35px;
+	}
 }
 
