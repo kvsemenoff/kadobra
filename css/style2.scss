@@ -6,14 +6,14 @@
 	position: relative;
 }
 .db-header-fon-p{
-		display: inline-block;
-		background: url("../img/db-header-bottom-b.png") no-repeat;
-		width:80px;
-		height:151px;
-		position: absolute;
-		bottom: -60px;
-		right:0px;
-	}
+	display: inline-block;
+	background: url("../img/db-header-bottom-b.png") no-repeat;
+	width:80px;
+	height:151px;
+	position: absolute;
+	bottom: -60px;
+	right:0px;
+}
 .db-header-top-box{
 	max-width:320px;
 	width: 100%;
@@ -27,35 +27,44 @@
 	display: inline-block;
 }
 .db-header-top-p{
-	span{
-		font-size: 20px;
-		color: #231f20;
-	}
+
 	display: inline-block;
 	float:right;
 	position: relative;
 	select{
+		span{
+			background: url("../img/select-db.png");
+			display: inline-block;
+			width:11px;
+			height:8px;
+			}
+		margin-top: -7px;
 		font-size: 16px;
-		border:none;
+		width: 53px;
+    	background: url(../img/select-db.png) no-repeat top 7px left 40px;
 		outline: none;
-		background: none;
+		border: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
 		float: right;
 
 		option{
-			outline:none;	
+			outline:none;
+			font-size: 15px;	
 		}
 	}
+
 }
 .db-header-top-p:after{
 	position: absolute;
 	content:"";
-	width:42px;
+	width:37px !important;
 	height:1px;
 	bottom: -1px;
 	right:16px;
 	border-bottom:2px dashed black;
 }
-	
+
 
 .db-header-bottom-h1{
 	font-size: 31px;
@@ -107,6 +116,73 @@
 }
 
 @media only screen and (min-width : 992px) {
+	option{
+			font-size: 23px !important;	
+		}
+	.db-header-top-p:after{
+	width: 69px !important;
+    right: 16px;
+	}
+	.db-header-bottom-a{
+		width:410px;
+		font-size: 31px;
+	}
+	.db-header-bottom-p1{
+		font-size: 32px;
+		padding-bottom: 70px;
+	}
+	.db-header-bottom-p2{
+		padding-top: 19px;
+		font-size: 20px;
+		font-family: "PFDinTextCompPro-Regular";
+	}
+	.db-header-bottom-h1{
+		font-size: 62px;
+		padding-bottom: 20px;
+	}
+	.db-header-top-box{
+		padding-bottom: 127px;
+		padding-top: 15px;
+	}
+
+	.db-header-top-p{
+		span{
+			font-size: 38px;
+		}
+		select{
+			font-size: 30px;
+			width:87px;
+			background: url(../img/select-db.png) no-repeat top 61% left 73px;
+			border:none;
+		}
+	}
+	.section_db-header{
+		padding-top: 15px;
+		padding-bottom: 50px;
+
+	}
+	.db-header-fon-left{
+		background: url("../img/db-header-title.png") no-repeat top left;
+		width:573px;
+		height:78px;
+		display: inline-block;
+	}
+	.db-header-fon-p{
+		display: inline-block;
+		background: url("../img/db-header-bottom-b-pc.png") no-repeat;
+		width:133px;
+		height:251px;
+		position: absolute;
+		bottom: -42px;
+		right:0px;
+	}
+
+	.db-header-top-box{
+		max-width: unset;
+	}
+
+
+
 }
 
 @media only screen and (min-width : 1248px) {
