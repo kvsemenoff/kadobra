@@ -1,3 +1,62 @@
+.school { padding: 50px 0 20px; background: url(../img/school_bg.jpg) top center/cover no-repeat; }
+.school h3 { color: #fdb514; text-transform: uppercase; font-size: 63px; font-family: "PFDinTextCompPro-bold", arial, sans-serif; text-align: center; }
+.school .descr { font-family: "PFDinTextCompPro-medium", arial, sans-serif; font-size: 32px; color: #fff; display: block; text-align: center; padding: 10px 0 30px; }
+.school .btn { text-align: center; padding-bottom: 20px; }
+.school .button-2 { margin: 0 auto; }
+.school .free { display: block; text-align: center; font-size: 20px; color: #fff; }
+
+.photo { padding: 80px 0 0; }
+.photo .col-md-12 { padding: 0; }
+.photo .photo__in { padding: 20px 0 40px; }
+.photo .photo__slider { float: left; max-width: 707px; }
+.photo .df-section { float: left; padding-left: 15px; padding-bottom: 165px; }
+.photo .slide { outline: none; position: relative; }
+.photo .img-wrap { width: 100%; height: 476px; overflow: hidden; }
+.photo .img-wrap img { width: 100%; height: auto; min-height: 100%; display: block; }
+.photo .img__txt { color: #fff; font-size: 21px; background: #fdb514; padding: 4px 40px 9px 17px; position: absolute; bottom: 0; right: 0; }
+.photo .img__txt p { padding-bottom: 2px; font-family: "PFDinTextCompPro-Regular", arial, sans-serif; }
+.photo .slick-arrow { display: none !important; }
+.photo .slick-dots { text-align: center; display: block; }
+.photo .slick-dots li { display: inline-block; padding: 9px 3px; }
+.photo .slick-dots li.slick-active button { background: #fdb514; }
+.photo .slick-dots li button { width: 19px; height: 18px; border: 3px solid #fdb514; background: #fff; outline: none; color: transparent; }
+
+.teacher-slider { background: url(../img/teacher_bg.jpg) top center/cover no-repeat; height: 542px; width: 100%; }
+.teacher .single-item { height: 542px; }
+.teacher .slider__nav { padding: 10px 0 30px; }
+.teacher .slider__nav a { color: #000; font-size: 24px; display: inline-block; padding-right: 5px; }
+.teacher .slider__nav .active__nav { color: #295ba9; }
+.teacher .slider__nav i { font-style: normal; }
+.teacher .slide { position: relative; outline: none; height: 542px; }
+.teacher .slick-dots { display: none !important; }
+.teacher .slick-arrow { border: none; width: 54px; height: 102px; color: transparent; position: absolute; top: 50%; margin-top: -27px; z-index: 20; outline: none; left: -65px; background: url(../img/teacher_slide-arrow.png) 0 0 no-repeat; }
+.teacher .slick-next { right: -65px; left: auto; transform: rotate(180deg); }
+.teacher .img-wrap { width: 548px; height: 512px; position: absolute; top: 30px; left: 50%; margin-left: -274px; }
+.teacher .img-wrap img { width: 100%; height: auto; min-height: 100%; display: block; }
+.teacher .img__txt { color: #fff; font-family: "Lcchalk_"; padding: 35px 65px; }
+.teacher .img__title { display: block; font-size: 30px; padding-bottom: 20px; background: url(../img/teacher_arrow.png) left bottom no-repeat; }
+.teacher .list { padding-top: 25px; }
+.teacher .list-left { float: left; }
+.teacher .list-right { float: right; }
+.teacher .list li { font-size: 20px; }
+.teacher .list .title { font-size: 47px; padding-bottom: 10px; }
+
+.testimonials, .partners { padding: 100px 0 80px; }
+.testimonials h2, .partners h2 { padding-bottom: 20px; }
+.testimonials .img_wrap, .partners .img_wrap { width: 180px; height: 180px; overflow: hidden; }
+.testimonials img, .partners img { width: 100%; height: auto; min-height: 100%; display: block; }
+.testimonials h3 span, .partners h3 span { font-size: 18px; display: block; }
+.testimonials h3, .partners h3 { color: #295ba9; font-size: 24px; }
+.testimonials .img_block, .partners .img_block { padding: 5px; outline: none; }
+.testimonials .img_title, .partners .img_title { float: left; margin: 0 120px 20px 0; overflow: hidden; }
+.testimonials .img_block p, .partners .img_block p { padding: 35px 25px; text-align: left; font-size: 24px; color: #202020; max-width: 550px; float: left; }
+.testimonials .slick-dots, .partners .slick-dots { display: none !important; }
+.testimonials .slick-prev, .partners .slick-prev { display: none !important; }
+.testimonials .slick-next, .partners .slick-next { border: none; color: transparent; width: 116px; height: 82px; background: url(../img/testimonials_arrow.png); outline: none; position: absolute; top: 50%; margin-top: -41px; right: 0; }
+.testimonials .img_logo-wrap, .partners .img_logo-wrap { width: 165px; height: 80px; overflow: hidden; float: left; margin-bottom: 10px; }
+.testimonials .img_logo img, .partners .img_logo img { width: 100%; height: auto; display: block; min-height: 100%; }
+.testimonials .support p, .partners .support p { display: block; float: left; height: 60px; width: 200px; font-size: 16px; padding: 0 10px 0; color: #b9b9b9; border-left: 3px solid #ed1a90; margin-bottom: 30px; }
+
 .footer__in { padding: 40px 0; }
 .footer__in .logo { float: left; display: block; width: 231px; height: 63px; background: url(../img/footer_logo.jpg) top left no-repeat; }
 .footer__in .txt { display: block; color: #295ba9; font-size: 24px; }
@@ -9,13 +68,50 @@
 .footer__bottom { height: 39px; width: 100%; background: #fdb514 url(../img/footer_bg.jpg) top right no-repeat; }
 .footer .button-1 { font-size: 24px; padding: 13px 14px; border-radius: 0; }
 
-@media only screen and (max-width: 1000px) { .footer .right { padding: 6px 0 0; }
+.mape h2 { padding: 15px 0; }
+
+@media only screen and (max-width: 1200px) { .photo .photo__slider { max-width: 650px; } }
+@media only screen and (max-width: 1000px) { .photo { padding: 30px 0 0; }
+  .photo .col-md-12 { padding: 0 15px; }
+  .photo .photo__slider, .photo .df-section { margin: 0 auto; float: none; }
+  .photo .df-section { text-align: center; padding-left: 0; }
+  .photo .df-section h3 { margin: 0 auto 6px; }
+  .photo .photo__slider .img-wrap { width: 100%; height: auto; }
+  .teacher .img__txt { padding: 35px 0px; }
+  .teacher .slick-arrow { display: none !important; }
+  .teacher .list li { font-size: 16px; }
+  .teacher .img-wrap { width: 448px; height: 412px; margin-left: -224px; }
+  .teacher-slider { height: 450px; }
+  .footer .right { padding: 6px 0 0; }
   .footer .right .phone { float: none; padding-bottom: 15px; }
   .footer .right .btn { float: none; } }
-@media only screen and (max-width: 760px) { .footer .right { padding: 0 20px; float: none; }
+@media only screen and (max-width: 760px) { .school { padding: 20px 0 20px; }
+  .school h3 { font-size: 43px; }
+  .school .descr { font-size: 22px; padding: 10px 0 20px; }
+  .school .free { font-size: 18px; }
+  .teacher-slider { height: auto; }
+  .teacher .img-wrap { left: auto; margin: 0; right: 0; top: auto; bottom: 0; }
+  .teacher .list { padding: 10px 0 0; float: none; }
+  .teacher .list li { font-size: 14px; }
+  .teacher .list .title { font-size: 18px; }
+  .teacher .img__title { font-size: 20px; }
+  .testimonials .img_title { margin: 0; padding-right: 20px; }
+  .footer .right { padding: 0 20px; float: none; }
   .footer .right .phone { float: left; padding: 20px 15px 15px; }
   .footer .right .btn { padding: 20px 15px 15px; float: right; } }
-@media only screen and (max-width: 580px) { .footer .logo { margin: 0 auto; float: none; }
+@media only screen and (max-width: 580px) { .school { padding: 20px 0 20px; }
+  .school h3 { font-size: 30px; }
+  .school .descr { font-size: 18px; padding: 10px 0 10px; }
+  .school .btn { padding-bottom: 10px; }
+  .school .free { font-size: 14px; }
+  .teacher .slide, .teacher .single-item { height: auto; }
+  .teacher .img-wrap { display: none; }
+  .testimonials { padding: 20px 0; }
+  .testimonials .img_title { width: 100%; text-align: center; padding-bottom: 10px; }
+  .testimonials .img_title .img_wrap { margin: 0 auto; }
+  .partners { padding: 20px 0; }
+  .partners .img_logo-wrap { margin: 0 auto 8px; float: none; }
+  .footer .logo { margin: 0 auto; float: none; }
   .footer .info { float: none; width: 100%; padding: 10px; margin: 0 auto; }
   .footer .right .phone { width: 100%; padding: 20px 10px 15px; text-align: center; }
   .footer .right .btn { width: 100%; text-align: center; }

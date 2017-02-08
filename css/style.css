@@ -24,9 +24,9 @@ h1 { color: #fff; font-size: 62px; text-transform: uppercase; font-family: "PFDi
 h2 { color: #ed1a90; font-size: 45px; text-transform: uppercase; max-width: 270px; font-family: "PFDinTextCompPro-Medium", arial, sans-serif; }
 h2 strong { font-weight: 400; color: #fdb514; }
 
-.button-1 { background: #ed1a90; font-family: "PFDinTextCompPro-Regular", arial, sans-serif; font-size: 30px; padding: 10px 25px; color: #fff; border-radius: 2px; border: none; display: block; outline: none; width: auto; }
+.button-1 { background: #ed1a90; font-family: "PFDinTextCompPro-Regular", arial, sans-serif; font-size: 30px; padding: 10px 25px; color: #fff; border-radius: 2px; border: none; outline: none; display: block; width: auto; }
 
-.button-2 { background: #ed1a90; text-transform: uppercase; padding: 17px 18px; font-family: "PFDinTextCompPro-bold", arial, sans-serif; font-size: 31px; color: #fff; border-radius: 2px; }
+.button-2 { display: inline-block; background: #ed1a90; text-transform: uppercase; padding: 14px 18px; font-family: "PFDinTextCompPro-bold", arial, sans-serif; font-size: 31px; color: #fff; border-radius: 2px; }
 
 input { background: #fdb514; outline: none; line-height: 35px; text-align: center; color: #fff; font-size: 21px; border: none; display: block; width: 100%; font-family: "PFDinTextCompPro-Regular", arial, sans-serif; }
 
@@ -34,3 +34,5 @@ input { background: #fdb514; outline: none; line-height: 35px; text-align: cente
 .input-wrap::before, .input-wrap::after { content: ""; position: absolute; display: block; background: #fdb514; width: 13px; height: 100%; border: 1px solid #fff; top: 0; }
 .input-wrap::before { left: 0; border-right: none; }
 .input-wrap::after { border-left: none; right: 0; }
+
+@media only screen and (max-width: 760px) { .button-1, .button-2 { font-size: 20px; padding: 8px 10px; } }
