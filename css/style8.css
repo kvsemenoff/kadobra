@@ -41,6 +41,34 @@
 .teacher .list li { font-size: 20px; }
 .teacher .list .title { font-size: 47px; padding-bottom: 10px; }
 
+.distinction { padding: 60px 0 0; height: 630px; background: url(../img/sign.jpg) 40% 0 no-repeat; }
+.distinction h4 { font-size: 45px; color: #295ba9; width: 300px; padding-top: 30px; padding-bottom: 10px; }
+.distinction h4 span { font-size: 45px; color: #fdb514; width: 300px; margin-left: 30px; margin-top: 80px; }
+.distinction-data { float: left; width: 437px; }
+.distinction-data p { color: #295ba9; font-size: 24px; }
+.distinction-data p span { color: #fdb514; font-size: 24px; display: block; padding: 15px 0 0; }
+.distinction-data-right { float: right; }
+.distinction-data-left p { padding-top: 15px; }
+.distinction-data-left p span { padding: 0 0 15px; }
+
+.result { position: relative; }
+.result-in { max-width: 1280px; margin: 0 auto; }
+.result .slide { position: relative; outline: none; }
+.result .slick-dots { display: none !important; }
+.result .slick-dots { display: none !important; }
+.result .slick-arrow { border: none; width: 54px; height: 102px; color: transparent; position: absolute; top: 50%; margin-top: -27px; z-index: 20; outline: none; left: 0px; background: url(../img/teacher_slide-arrow.png) 0 0 no-repeat; }
+.result .slick-next { right: 0px; left: auto; transform: rotate(180deg); }
+.result_wrap { text-align: left; width: 1130px; height: auto; overflow: hidden; }
+.result_wrap img { width: 100%; height: auto; min-height: 100%; display: block; }
+.result h3 { color: #295ba9; font-size: 24px; }
+.result h3 span { font-size: 18px; display: block; padding: 20px 0 50px; }
+.result_block { position: absolute; top: 50px; left: 100px; }
+.result .data { padding: 10px 10px 0 0; text-align: left; font-size: 24px; width: 250px; height: 300px; }
+.result .title { padding-top: 40px; }
+.result p { color: #295ba9; font-size: 24px; }
+.result p span { color: #fdb514; font-size: 24px; }
+.result .look { display: inline-block; background: url(../img/tire.jpg) left bottom repeat-x; font-size: 24px; color: #ed1a90; }
+
 .testimonials, .partners { padding: 100px 0 80px; }
 .testimonials h2, .partners h2 { padding-bottom: 20px; }
 .testimonials .img_wrap, .partners .img_wrap { width: 180px; height: 180px; overflow: hidden; }
@@ -70,13 +98,23 @@
 
 .mape h2 { padding: 15px 0; }
 
-@media only screen and (max-width: 1200px) { .photo .photo__slider { max-width: 650px; } }
+@media only screen and (max-width: 1200px) { .photo .photo__slider { max-width: 650px; }
+  .result_wrap { width: 80%; }
+  .result_block { top: 10px; }
+  .result .title span { padding-bottom: 10px; }
+  .result .data { height: auto; } }
 @media only screen and (max-width: 1000px) { .photo { padding: 30px 0 0; }
   .photo .col-md-12 { padding: 0 15px; }
   .photo .photo__slider, .photo .df-section { margin: 0 auto; float: none; }
   .photo .df-section { text-align: center; padding-left: 0; }
   .photo .df-section h3 { margin: 0 auto 6px; }
   .photo .photo__slider .img-wrap { width: 100%; height: auto; }
+  .result_wrap { width: 93%; }
+  .result_block { top: 0px; }
+  .result .title span { padding-bottom: 0px; }
+  .result .data { height: auto; }
+  .distinction { height: auto; background-size: cover; padding: 20px 0; }
+  .distinction-data { width: 100%; float: none; }
   .teacher .img__txt { padding: 35px 0px; }
   .teacher .slick-arrow { display: none !important; }
   .teacher .list li { font-size: 16px; }
@@ -95,6 +133,13 @@
   .teacher .list li { font-size: 14px; }
   .teacher .list .title { font-size: 18px; }
   .teacher .img__title { font-size: 20px; }
+  .result h2 { font-size: 16px; }
+  .result .title span { padding-bottom: 10px; }
+  .result_block { left: 10px; }
+  .result .data p { font-size: 14px; width: 180px; }
+  .result .data p span { font-size: 14px; }
+  .result .look { font-size: 14px; }
+  .result .slick-arrow { display: none !important; }
   .testimonials .img_title { margin: 0; padding-right: 20px; }
   .footer .right { padding: 0 20px; float: none; }
   .footer .right .phone { float: left; padding: 20px 15px 15px; }
@@ -106,9 +151,15 @@
   .school .free { font-size: 14px; }
   .teacher .slide, .teacher .single-item { height: auto; }
   .teacher .img-wrap { display: none; }
+  .distinction h4 { font-size: 20px; padding-bottom: 0; }
+  .distinction h4 span { font-size: 20px; }
+  .distinction-data p { padding-top: 0; font-size: 16px; }
+  .distinction-data p span { font-size: 16px; }
   .testimonials { padding: 20px 0; }
   .testimonials .img_title { width: 100%; text-align: center; padding-bottom: 10px; }
   .testimonials .img_title .img_wrap { margin: 0 auto; }
+  .testimonials .slick-arrow { display: none !important; }
+  .testimonials .img_block p { font-size: 15px; padding: 15px 10px; }
   .partners { padding: 20px 0; }
   .partners .img_logo-wrap { margin: 0 auto 8px; float: none; }
   .footer .logo { margin: 0 auto; float: none; }
@@ -116,3 +167,8 @@
   .footer .right .phone { width: 100%; padding: 20px 10px 15px; text-align: center; }
   .footer .right .btn { width: 100%; text-align: center; }
   .footer .right .btn a { display: inline-block; } }
+@media only screen and (max-width: 400px) { .result_wrap { width: 98%; }
+  .result .title { padding-top: 25px; }
+  .result .title h3 span { padding-bottom: 0; padding-top: 0; font-size: 16px; }
+  .result .data p { width: 135px; font-size: 12px; }
+  .result .data p span { font-size: 12px; } }
