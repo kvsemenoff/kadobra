@@ -5,6 +5,7 @@
 <?php require('includes/school.php'); ?>
 <?php require_once('includes/photo.php'); ?>
 <?php require_once('includes/teacher.php'); ?>
+<?php require_once('includes/results.php'); ?>
 <?php require_once('includes/testimonials.php'); ?>
 <?php require('includes/school.php'); ?>
 <?php require_once('includes/partners.php'); ?>

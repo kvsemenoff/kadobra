@@ -192,6 +192,134 @@
 		}
 	}
 }
+.distinction{
+	padding: 60px 0 0;
+	height: 630px;
+  background: url(../img/sign.jpg) 40% 0 no-repeat;
+	h4{
+		font-size: 45px;
+		color: #295ba9;
+		width: 300px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		span{
+			font-size: 45px;
+			color: #fdb514;
+			width: 300px;
+			margin-left: 30px;
+			margin-top: 80px;
+		}
+	}
+	&-data{
+		float: left;
+		width: 437px;
+		p{
+			color:#295ba9;
+			font-size: 24px;
+			span{
+				color:#fdb514;
+				font-size: 24px;
+				display: block;
+				padding: 15px 0 0;
+			}
+		}
+		&-right{
+			float: right;
+		}
+		&-left{
+			p{
+				padding-top: 15px;
+				span{
+					padding: 0 0 15px;
+				}
+			}
+		}
+	}
+}
+.result{
+	position: relative;
+	&-in{
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+	.slide{
+		position: relative;
+		outline: none;
+	}
+	.slick-dots{
+		display: none!important;
+	}.slick-dots{
+		display: none!important;
+	}
+	.slick-arrow{
+		border: none;
+		width: 54px;
+		height: 102px;
+		color: transparent;
+		position: absolute;
+		top: 50%;
+		margin-top: -27px;
+		z-index: 20;
+		outline: none;
+		left: 0px;
+		background: url(../img/teacher_slide-arrow.png) 0 0 no-repeat;
+	}
+	.slick-next{
+		right: 0px;
+		left: auto;
+		transform: rotate(180deg);
+	}
+	&_wrap{
+		text-align: left; 
+		width: 1130px;
+		height: auto;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			display: block;
+		}
+	}
+	h3{
+		color: #295ba9;
+		font-size: 24px;
+		span{
+			font-size: 18px;
+			display: block;
+			padding: 20px 0 50px;
+		}
+	}
+	&_block{
+		position: absolute;
+		top: 50px;
+		left: 100px;
+	}
+	.data{
+		padding: 10px 10px 0 0;
+		text-align: left; 
+		font-size: 24px;
+		width: 250px;
+		height: 300px;
+	}
+	.title{
+		padding-top: 40px;
+	}
+	p{
+		color:#295ba9;
+		font-size: 24px;
+		span{
+			color:#fdb514;
+			font-size: 24px;
+		}
+	}
+	.look{
+		display: inline-block;
+		background: url(../img/tire.jpg) left bottom repeat-x;
+		font-size: 24px;
+		color:#ed1a90;
+	}
+}
 .testimonials,
 .partners{
 	padding: 100px 0 80px;
@@ -333,6 +461,20 @@
 			max-width: 650px;
 		}
 	}
+	.result{
+		&_wrap{
+			width: 80%;
+		}
+		&_block{
+			top: 10px;
+		}
+		.title span{
+			padding-bottom: 10px;
+		}
+		.data{
+			height: auto;
+		}
+	}
 }
 @media only screen and (max-width : 1000px) {
 	.photo{
@@ -357,6 +499,29 @@
 				width: 100%;
 				height: auto;
 			}
+		}
+	}
+	.result{
+		&_wrap{
+			width: 93%;
+		}
+		&_block{
+			top: 0px;
+		}
+		.title span{
+			padding-bottom: 0px;
+		}
+		.data{
+			height: auto;
+		}
+	}
+	.distinction{
+		height: auto;
+		background-size: cover;
+		padding: 20px 0;
+		&-data{
+			width: 100%;
+			float: none;
 		}
 	}
 	.teacher{
@@ -432,6 +597,30 @@
 			font-size: 20px;
 		}
 	}
+	.result{
+		h2{
+			font-size: 16px;
+		}
+		.title span{
+			padding-bottom: 10px;
+		}
+		&_block{
+			left: 10px;
+		}
+		.data p{
+			font-size: 14px;
+			width: 180px;
+			span{
+				font-size: 14px;
+			}
+		}
+		.look{
+			font-size: 14px;
+		}
+		.slick-arrow{
+			display: none!important;
+		}
+	}
 	.testimonials{
 		.img_title{
 			margin: 0;
@@ -479,6 +668,24 @@
 			display: none;
 		}
 	}
+	.distinction{
+		h4{
+			font-size: 20px;
+			padding-bottom: 0;
+			span{
+				font-size: 20px;
+			}
+		}
+		&-data{
+			p{
+				padding-top: 0;
+				font-size: 16px;
+				span{
+					font-size: 16px;
+				}
+			}
+		}
+	}
 	.testimonials{
 		padding: 20px 0;
 		.img_title{
@@ -488,6 +695,13 @@
 			.img_wrap{
 				margin: 0 auto;
 			}
+		}
+		.slick-arrow{
+			display: none!important;
+		}
+		.img_block p{
+			font-size: 15px;
+			padding: 15px 10px;
 		}
 	}
 	.partners{
@@ -520,6 +734,28 @@
 				a{
 					display: inline-block;
 				}
+			}
+		}
+	}
+}
+@media only screen and (max-width : 400px) {
+	.result{
+		&_wrap{
+			width: 98%;
+		}
+		.title{
+			padding-top: 25px;
+			h3 span{
+				padding-bottom: 0;
+				padding-top: 0;
+				font-size: 16px;
+			}
+		}
+		.data p{
+			width: 135px;
+			font-size: 12px;
+			span{
+				font-size: 12px;
 			}
 		}
 	}
