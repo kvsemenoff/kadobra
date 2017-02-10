@@ -71,10 +71,6 @@
 }
 
 @media only screen and (min-width : 992px) {
-
-}
-
-@media only screen and (min-width : 1248px) {
 	.dd-title-wrap{
 		float: left;
 	}
@@ -97,7 +93,7 @@
 		float: left;
 	}
 	.dd-box-sircle-wrap{
-		width: 526px;
+		width: 578px;
 		margin: 0 auto;
 	}
 	.mleft-40{
@@ -111,5 +107,9 @@
 		width: 249px;
 		float: left;
 	}
+
+}
+
+@media only screen and (min-width : 1248px) {
 }
 
