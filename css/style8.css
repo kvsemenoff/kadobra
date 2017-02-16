@@ -69,21 +69,26 @@
 .result p span { color: #fdb514; font-size: 24px; }
 .result .look { display: inline-block; background: url(../img/tire.jpg) left bottom repeat-x; font-size: 24px; color: #ed1a90; }
 
-.testimonials, .partners { padding: 100px 0 80px; }
-.testimonials h2, .partners h2 { padding-bottom: 20px; }
-.testimonials .img_wrap, .partners .img_wrap { width: 180px; height: 180px; overflow: hidden; }
-.testimonials img, .partners img { width: 100%; height: auto; min-height: 100%; display: block; }
-.testimonials h3 span, .partners h3 span { font-size: 18px; display: block; }
-.testimonials h3, .partners h3 { color: #295ba9; font-size: 24px; }
-.testimonials .img_block, .partners .img_block { padding: 5px; outline: none; }
-.testimonials .img_title, .partners .img_title { float: left; margin: 0 120px 20px 0; overflow: hidden; }
-.testimonials .img_block p, .partners .img_block p { padding: 35px 25px; text-align: left; font-size: 24px; color: #202020; max-width: 550px; float: left; }
-.testimonials .slick-dots, .partners .slick-dots { display: none !important; }
-.testimonials .slick-prev, .partners .slick-prev { display: none !important; }
-.testimonials .slick-next, .partners .slick-next { border: none; color: transparent; width: 116px; height: 82px; background: url(../img/testimonials_arrow.png); outline: none; position: absolute; top: 50%; margin-top: -41px; right: 0; }
-.testimonials .img_logo-wrap, .partners .img_logo-wrap { width: 165px; height: 80px; overflow: hidden; float: left; margin-bottom: 10px; }
-.testimonials .img_logo img, .partners .img_logo img { width: 100%; height: auto; display: block; min-height: 100%; }
-.testimonials .support p, .partners .support p { display: block; float: left; height: 60px; width: 200px; font-size: 16px; padding: 0 10px 0; color: #b9b9b9; border-left: 3px solid #ed1a90; margin-bottom: 30px; }
+.testimonials { padding: 100px 0 80px; }
+.testimonials h2 { padding-bottom: 20px; }
+.testimonials .img_wrap { width: 180px; height: 180px; overflow: hidden; }
+.testimonials img { width: 100%; height: auto; min-height: 100%; display: block; }
+.testimonials h3 span { font-size: 18px; display: block; }
+.testimonials h3 { color: #295ba9; font-size: 24px; }
+.testimonials .img_block { padding: 5px; outline: none; }
+.testimonials .img_title { float: left; margin: 0 120px 20px 0; overflow: hidden; }
+.testimonials .img_block p { padding: 35px 25px; text-align: left; font-size: 24px; color: #202020; max-width: 550px; float: left; }
+.testimonials .slick-dots { display: none !important; }
+.testimonials .slick-prev { display: none !important; }
+.testimonials .slick-next { border: none; color: transparent; width: 116px; height: 82px; background: url(../img/testimonials_arrow.png); outline: none; position: absolute; top: 50%; margin-top: -41px; right: 0; }
+
+.partners { padding: 100px 0 80px; }
+.partners h2 { padding-bottom: 20px; }
+.partners .img_logo-wrap { float: left; margin-bottom: 10px; height: 170px; max-width: 183px; }
+.partners .img_logo img { margin-left: -8px; display: block; }
+.partners p { font-size: 16px; padding: 0 10px 0; color: #b9b9b9; border-left: 3px solid #ed1a90; }
+.partners .img_logo_5 { padding: 15px 25px 0 10px; }
+.partners .img_logo_6 { padding-top: 20px; }
 
 .footer__in { padding: 40px 0; }
 .footer__in .logo { float: left; display: block; width: 231px; height: 63px; background: url(../img/footer_logo.jpg) top left no-repeat; }
@@ -102,7 +107,9 @@
   .result_wrap { width: 80%; }
   .result_block { top: 10px; }
   .result .title span { padding-bottom: 10px; }
-  .result .data { height: auto; } }
+  .result .data { height: auto; }
+  .partners .img_logo_5, .partners .img_logo_6 { height: auto; width: 200px; padding: 0; }
+  .partners .img_logo_5 img, .partners .img_logo_6 img { margin: 0 auto; } }
 @media only screen and (max-width: 1000px) { .photo { padding: 30px 0 0; }
   .photo .col-md-12 { padding: 0 15px; }
   .photo .photo__slider, .photo .df-section { margin: 0 auto; float: none; }
